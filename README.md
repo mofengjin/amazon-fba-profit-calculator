@@ -4,10 +4,13 @@
 [![Privacy: 100% Offline](https://img.shields.io/badge/Privacy-100%25%20Offline%20In--Memory-success.svg)](README.md)
 [![Amazon 2026 Tiers: Verified](https://img.shields.io/badge/Amazon%202026%20Fee%20Schedule-Verified-green.svg)](README.md)
 [![Purchase: Gumroad $24](https://img.shields.io/badge/Lifetime%20License-%2424%20USD-blueviolet.svg)](https://mofengjin.gumroad.com/l/amazon-fba-calculator)
+[![All-in-One Suite: $59](https://img.shields.io/badge/Complete%20Suite%205--in--1-%2459%20USD%20(Save%2050%25)-success.svg)](https://mofengjin.gumroad.com/l/amazon-seller-suite)
 
 > **Accurately calculate official 2026 Amazon FBA fulfillment fees, inbound placement surcharges, storage fees, and reverse-engineer your target profit margins — 100% offline.**
+>
+> **Bundle & Save 50%:** Get all 5 standalone seller tools in one bundle for just **$59 USD** (Save $60+): [**Amazon SellerInsights Complete Suite (5-in-1 Lifetime Access)**](https://mofengjin.gumroad.com/l/amazon-seller-suite).
 
-[Official Gumroad Checkout ($24 USD Lifetime Access)](https://mofengjin.gumroad.com/l/amazon-fba-calculator) | [Live Online Calculator](https://mofenginto.github.io/amazon-fba-profit-calculator/)
+[Official Gumroad Checkout ($24 USD Lifetime Access)](https://mofengjin.gumroad.com/l/amazon-fba-calculator) | [5-in-1 Complete Suite ($59 USD)](https://mofengjin.gumroad.com/l/amazon-seller-suite) | [Live Online Calculator](https://mofenginto.github.io/amazon-fba-profit-calculator/)
 
 ---
 
