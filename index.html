@@ -230,6 +230,22 @@
       background: rgba(255,255,255,0.05);
       color: #fff;
     }
+    .btn-preset {
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .btn-preset:hover {
+      background: #2563eb;
+      color: #fff;
+      border-color: #2563eb;
+    }
   </style>
 </head>
 <body>
@@ -253,6 +269,17 @@
         <div class="unit-toggle">
           <button id="unitImp" class="unit-btn active" onclick="setUnit('imp')">Imperial (in/lb)</button>
           <button id="unitMet" class="unit-btn" onclick="setUnit('met')">Metric (cm/kg)</button>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 16px; padding: 12px; background: rgba(37,99,235,0.08); border: 1px solid rgba(37,99,235,0.25); border-radius: 8px;">
+        <div style="font-size: 0.8rem; font-weight: 700; color: #93c5fd; text-transform: uppercase; margin-bottom: 8px;">
+          Instant Preset Templates (1-Click Demo):
+        </div>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+          <button type="button" class="btn-preset" onclick="loadFbaPreset('blender')">Kitchen Blender ($29.99)</button>
+          <button type="button" class="btn-preset" onclick="loadFbaPreset('tumbler')">Steel Tumbler ($19.99)</button>
+          <button type="button" class="btn-preset" onclick="loadFbaPreset('chair')">Office Chair ($149.99)</button>
         </div>
       </div>
 
@@ -581,6 +608,39 @@
       document.getElementById(id).addEventListener('input', calculate);
       document.getElementById(id).addEventListener('change', calculate);
     });
+
+    function loadFbaPreset(type) {
+      setUnit('imp');
+      if (type === 'blender') {
+        document.getElementById('inpLen').value = 10;
+        document.getElementById('inpWid').value = 7;
+        document.getElementById('inpHgt').value = 1.5;
+        document.getElementById('inpWgt').value = 0.9;
+        document.getElementById('selCategory').value = '15';
+        document.getElementById('inpPrice').value = 29.99;
+        document.getElementById('inpCogs').value = 7.50;
+        document.getElementById('inpFreight').value = 2.20;
+      } else if (type === 'tumbler') {
+        document.getElementById('inpLen').value = 11;
+        document.getElementById('inpWid').value = 4.2;
+        document.getElementById('inpHgt').value = 4.2;
+        document.getElementById('inpWgt').value = 1.2;
+        document.getElementById('selCategory').value = '15';
+        document.getElementById('inpPrice').value = 19.99;
+        document.getElementById('inpCogs').value = 4.80;
+        document.getElementById('inpFreight').value = 1.50;
+      } else if (type === 'chair') {
+        document.getElementById('inpLen').value = 26;
+        document.getElementById('inpWid').value = 24;
+        document.getElementById('inpHgt').value = 14;
+        document.getElementById('inpWgt').value = 32;
+        document.getElementById('selCategory').value = '15';
+        document.getElementById('inpPrice').value = 149.99;
+        document.getElementById('inpCogs').value = 38.00;
+        document.getElementById('inpFreight').value = 16.50;
+      }
+      calculate();
+    }
 
     calculate();
   </script>
