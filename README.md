@@ -1,62 +1,54 @@
 # Amazon FBA Fee & Profit Calculator (2026 Official)
 
+[English](#english) | [中文使用说明](#中文使用说明)
+
+---
+
+<a name="english"></a>
+## English
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Privacy: 100% Offline](https://img.shields.io/badge/Privacy-100%25%20Offline%20In--Memory-success.svg)](README.md)
 [![Amazon 2026 Tiers: Verified](https://img.shields.io/badge/Amazon%202026%20Fee%20Schedule-Verified-green.svg)](README.md)
-[![Purchase: Gumroad $24](https://img.shields.io/badge/Lifetime%20License-%2424%20USD-blueviolet.svg)](https://mofengjin.gumroad.com/l/amazon-fba-calculator)
-[![All-in-One Suite: $59](https://img.shields.io/badge/Complete%20Suite%205--in--1-%2459%20USD%20(Save%2050%25)-success.svg)](https://mofengjin.gumroad.com/l/amazon-seller-suite)
+[![Purchase: Gumroad $24](https://img.shields.io/badge/Lifetime%20License-%2424%20USD-blueviolet.svg)](https://mofengjin.gumroad.com/l/nwkpup)
+[![Sponsor: WeChat Pay](https://img.shields.io/badge/Sponsor-WeChat%20Pay-07C160.svg)](#sponsor--support)
 
-> **Accurately calculate official 2026 Amazon FBA fulfillment fees, inbound placement surcharges, storage fees, and reverse-engineer your target profit margins — 100% offline.**
->
-> **Bundle & Save 50%:** Get all 5 standalone seller tools in one bundle for just **$59 USD** (Save $60+): [**Amazon SellerInsights Complete Suite (5-in-1 Lifetime Access)**](https://mofengjin.gumroad.com/l/amazon-seller-suite).
+> **Precision FBA fee calculation, dimensional tier optimization, and net profit modeling based on the official 2026 Amazon Fulfillment Fee schedules — 100% offline.**
 
-[Official Gumroad Checkout ($24 USD Lifetime Access)](https://mofengjin.gumroad.com/l/amazon-fba-calculator) | [5-in-1 Complete Suite ($59 USD)](https://mofengjin.gumroad.com/l/amazon-seller-suite) | [Live Online Calculator](https://mofenginto.github.io/amazon-fba-profit-calculator/)
+### Key Capabilities
+1. **2026 Official Fee Schedule Engine**: Accurately calculates standard, large standard, and oversize fulfillment fees.
+2. **Inbound Placement & Low-Inventory Fee Modeling**: Simulates modern Amazon fee mechanics.
+3. **Interactive Sensitivity Analysis**: Real-time gross margin and net ROI adjustments with immediate feedback.
 
----
+### Quick Start
+- Double-click `【双击使用】FBA利润精算器 (离线网页版).html` in your browser.
 
-## Why Every Amazon Seller Needs This
+### Sponsor & Support
+- **International**: [Official Gumroad ($24 USD)](https://mofengjin.gumroad.com/l/nwkpup)
+- **WeChat Pay / 微信赞赏**:
 
-In 2026, Amazon's fee structure has become more complex than ever:
-- **Inbound Placement Service Fees**: Up to $0.34 per unit for small standard and over $1.05+ for oversize items unless split across multiple fulfillment centers.
-- **Dimensional Weight Thresholds**: Amazon bills based on dimensional weight vs actual unit weight (`L x W x H / 139`), catching unsuspecting sellers off guard.
-- **Hidden Storage Costs**: Peak Q4 storage rates of $2.40/cu ft dramatically compress net margins.
-
-Using traditional cloud calculators means paying **$49-$199/month** or uploading your sensitive product cost data. **SellerInsights FBA Profit Calculator** provides an instant, private, and 100% offline alternative.
-
----
-
-## Key Features
-
-1. **2026 Tier Auto-Detection**:
-   - Small Standard, Large Standard, Small Oversize, Medium Oversize, and Special Oversize.
-   - Dual-unit support: Imperial (inches, lbs) and Metric (cm, kg).
-2. **Comprehensive Fee Breakdown**:
-   - Pick & pack FBA fulfillment fee.
-   - Referral commission calculated by category.
-   - Inbound placement service fee estimator (Optimized vs Partial vs Single destination).
-   - Monthly cubic-foot storage fee estimation.
-3. **Reverse Pricing Engine**:
-   - Enter your target profit margin (e.g., 30%), and the engine mathematically solves for the exact retail price required to achieve it.
-4. **Export Options**:
-   - One-click print/PDF audit sheet.
-   - Instant CSV financial summary export.
-5. **Zero Cloud Dependency**:
-   - Single-file standalone architecture. Runs offline in any web browser.
+<div align="center">
+  <img src="assets/wechat_sponsor.png" width="260" alt="WeChat Sponsor QR" />
+  <p><b>Scan with WeChat to support the creator</b></p>
+</div>
 
 ---
 
-## Quick Start
+<a name="中文使用说明"></a>
+## 中文使用说明
 
-1. Double-click `index.html` in your browser.
-2. Enter your product dimensions and sourcing costs.
-3. Review your net margin, ROI, and break-even retail price in real-time.
+> **精准计算 2026 亚马逊最新 FBA 阶梯尺寸费用、低库存费、入库配置费与真实净利润率 —— 100% 浏览器本地离线运行。**
 
----
+### 核心功能
+1. **2026 官方最新尺寸阶梯与配送费核算**：精准匹配小号标准件、大号标准件与大件商品的阶梯收费标准。
+2. **入库配置费与低库存费综合模拟**：全面覆盖亚马逊最新推行的入库分仓服务费与低库存水平费测算。
+3. **定价与投资回报率 (ROI) 动态试算**：实时推演降价促销、提价保利条件下的利润率敏感曲线。
 
-## License & Purchase
+### 使用方法
+- 直接双击工程中的 `【双击使用】FBA利润精算器 (离线网页版).html` 即可启动使用。
 
-- **Lifetime License**: $24 USD (One-time payment)
-- **Instant Download**: [https://mofengjin.gumroad.com/l/amazon-fba-calculator](https://mofengjin.gumroad.com/l/amazon-fba-calculator)
-- All future fee schedule updates included for life.
-
-Copyright (c) 2026 SellerInsights. All rights reserved.
+### 支持作者（请喝冰阔乐）
+<div align="center">
+  <img src="assets/wechat_sponsor.png" width="280" alt="微信赞赏码" />
+  <p><b>微信扫一扫 · 请作者喝瓶冰阔乐</b></p>
+</div>
